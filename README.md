@@ -7,7 +7,7 @@ I'm fascinated by the world of artificial intelligence, particularly the ability
 
 ## Passionate about:
 - 📝 Natural Language Processing (NLP)
-- 🧠 Large Language Models (LMs)
+- 🧠 Large Language Models (LLMs)
 - 📊 Data Science 
 
 
