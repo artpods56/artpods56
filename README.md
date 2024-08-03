@@ -2,22 +2,22 @@
 artpods56@pc:~$ git clone https://github.com/artpods56/artpods56
 
 Cloning into 'artpods56'...
-remote: Enumerating objects: 15, done.
-remote: Counting objects: 100% (15/15), done.
-remote: Compressing objects: 100% (10/10), done.
-remote: Total 15 (delta 4), reused 0 (delta 0), pack-reused 0
-Receiving objects: 100% (15/15), 5.51 KiB | 940.00 KiB/s, done.
+remote: Enumerating objects: 21, done.
+remote: Counting objects: 100% (21/21), done.
+remote: Compressing objects: 100% (16/16), done.
+remote: Total 21 (delta 4), reused 6 (delta 0), pack-reused 0
+Receiving objects: 100% (21/21), 8.87 KiB | 2.22 MiB/s, done.
 Resolving deltas: 100% (4/4), done.
 
 artpods56@pc:~$ python3
 ```
 ```python
+Python 3.12.3 (main, Jul 31 2024, 17:43:48) [GCC 13.2.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
 >>> import json
 >>> data = json.loads(open('/artpods56/about.json').read())
 >>> print(json.dumps(data, indent=4))
 ```
-
-
 
 ```json
 {
