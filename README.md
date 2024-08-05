@@ -21,7 +21,7 @@ Type "help", "copyright", "credits" or "license" for more information.
 
 ```json
 {
-    "full_name": "Artur Podsiadły",
+    "full_name": "Artur Podsiad\u0142y",
     "country": "Poland",
     "contact": {
         "email": "artpods56@gmail.com",
@@ -82,34 +82,33 @@ Type "help", "copyright", "credits" or "license" for more information.
         "programming_languages": [
             "Python",
             "JavaScript",
-            "basics of R"
+            "R (basics)"
         ],
-        "machine_learning": [
-            "numpy",
-            "pandas",
-            "matplotlib",
-            "scikitlearn",
-            "keras",
-            "basics of PyTorch"
-        ],
+        "ai": {
+            "general": [
+                "Numpy", "Pandas", "Matplotlib", "SciPy", "scikit-learn"
+            ],
+            "deep_learning": [
+                "Keras", "PyTorch (basics)", "TensorFlow (basics)"
+            ],
+            "computer_vision": [
+                "Pillow", "OpenCV"
+            ],
+            "llm | nlp": [
+                "Transformers", "Spacy", "OpenAI API", "Anthropic API", "Groq API"
+            ],
+            "visualization": [
+                "Matplotlib", "Gradio"
+            ]
+        },
         "web_development": [
-            "Django",
-            "FastAPI",
-            "HTML",
-            "CSS",
-            "Bootstrap"
+            "Django", "FastAPI", "HTML", "CSS", "JavaScript", "Bootstrap"
         ],
         "databases": [
-            "PostgreSQL",
-            "neo4j"
+            "PostgreSQL", "Neo4j"
         ],
         "tools": [
-            "Git",
-            "LaTeX",
-            "Docker",
-            "Deepnote",
-            "Postman",
-            "Bootstrap Studio"
+            "Git", "OpenAI", "Groq", "HuggingFace", "RegEx", "Copilot", "LM Studio", "Roboflow", "Protégé", "LaTeX", "Docker", "Deepnote", "Postman", "Bootstrap Studio"
         ]
     },
     "projects": [
@@ -117,24 +116,14 @@ Type "help", "copyright", "credits" or "license" for more information.
             "name": "TEDxLublin Website",
             "description": "A website I created from scratch for the TEDxLublin event that took place in 2024",
             "technologies": [
-                "Docker",
-                "Django",
-                "Bootstrap5",
-                "NGINX",
-                "Umami"
+                "Docker", "Django", "Bootstrap5", "NGINX", "Umami"
             ]
         },
         {
             "name": "AttireKeeper",
-            "description": "An inventory management web app I created for myself, specifically to be more productive and to utilize some AI tools I found useful and interesting. The app features all necessary CRUD operations and tools like item templates and background removal.",
+            "description": "An inventory management web app I created for myself, specifically to be more productive and to utilize some AI tools I found useful and interesting. The app features all necessary CRUD operations and tools like item templates, background removal and image augmentation.",
             "technologies": [
-                "Docker",
-                "Django",
-                "Bootstrap5",
-                "PostgreSQL",
-                "FastAPI",
-                "Pytorch",
-                "CUDA Toolkit"
+                "Docker", "Django", "HTML", "JavaScript", "Ajax", "Bootstrap5", "PostgreSQL", "FastAPI", "Pytorch", "CUDA Toolkit"
             ]
         }
     ],
